@@ -1,8 +1,21 @@
 import './style.css'
+import {useEffect, useState} from 'react'
 
 const Header = (() => {
+    const [scolledm setScrolled] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > 50)
+        }
+
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
+
+
     return(
-        <header>
+        <header className={scrolled ? 'scrolled' : ''}>
             <p>Logo</p>
 
             <nav class="header-links">
