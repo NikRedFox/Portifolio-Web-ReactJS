@@ -2,7 +2,7 @@ import './style.css'
 import {useEffect, useState} from 'react'
 
 const Header = (() => {
-    const [scolledm setScrolled] = useState(false)
+    const [scrolled, setScrolled] = useState(false)
 
     useEffect(() => {
         const handleScroll = () => {
@@ -18,12 +18,12 @@ const Header = (() => {
         <header className={scrolled ? 'scrolled' : ''}>
             <p>Logo</p>
 
-            <nav class="header-links">
-                <ul class="header-items">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Portifolio</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+            <nav className="header-links">
+                <ul className="header-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portifolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
