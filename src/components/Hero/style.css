@@ -1,0 +1,47 @@
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 158px 0px 109px;
+    gap: 300px;
+    margin-bottom: 250px;
+}
+
+main p{
+    font-size: 24px;
+    font-weight: 500;
+    width: 658px;    
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-container h1{
+    font-family: 'Playfair Display';
+    font-size: 250px;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    line-height: 190px;
+}
+
+.img-main-1{
+    position: absolute;
+    right: -20px;
+    bottom: 10px;
+}
+
+.img-main-2{
+    position: absolute;
+    bottom: -300px;
+    left: 0px;
+}
+
+main button{
+    width: 260px;
+    height: 72px;
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 650px;
+}
