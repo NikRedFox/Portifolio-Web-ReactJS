@@ -1,0 +1,27 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+    gap: 70px;
+    padding: 0px 115px;
+}
+
+.about-container h2{
+    font-family: 'Playfair Display';
+    font-size: 81px;
+    font-weight: 500;
+}
+
+.about-textbox{
+    display: flex;
+    gap: 71px;    
+}
+
+.about-text{
+    display:  flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 70px;
+    margin-top: 60px;
+}

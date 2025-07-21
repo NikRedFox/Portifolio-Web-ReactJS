@@ -1,0 +1,124 @@
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 342px;
+}
+
+.testimonials-container p{
+    width: 750px;
+}
+
+.testimonials-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+.testimonials-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.testimonials-text h2{
+    font-family: 'Playfair Display';
+    font-size: 81px;
+    font-weight: 500;
+}
+
+.testimonials-text p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.testimonials-cards-horizontal{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.testimonial-card-H{
+    display: flex;
+}
+
+.card-text-H{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 5px 10px 20px; 
+    background-color: #181818;   
+    height: 310px;
+    width: 430px;
+}
+
+.card-text-H h3{
+    font-size: 44px;
+    width: 390px;
+}
+
+.card-text-H p{
+    font-size: 15px;
+    width: 290px;
+}
+
+.card-text-H button{
+    width: 150px;
+    height: 21px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-text-H img{
+    width: 10%;
+    align-items: center;
+}
+
+.testimonial-card-V{
+    width: 327px;
+}
+
+.card-text-V{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 362px;
+    background-color: #181818;
+    gap: 20px;
+    padding: 21px 29px 34px 20px;
+}
+
+.card-text-V h3{
+    font-size: 38px;
+    width: 250px;
+}
+
+.card-text-V p{
+    font-size: 15px;
+    width: 220px;
+}
+
+.card-text-V button{
+    width: 150px;
+    height: 21px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.testimonial-button{
+    width: 221px;
+    height: 77px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
