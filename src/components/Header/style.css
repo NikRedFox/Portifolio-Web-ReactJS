@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding: 80px 104px;    
+    padding: 40px 104px;    
     color: var(--color-white);
     text-transform: uppercase;
     margin-bottom: 40px;
