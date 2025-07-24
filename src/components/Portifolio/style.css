@@ -29,3 +29,57 @@
     grid-template-rows: 3fr;
     gap: 77px;
 }
+
+.hiddenL{
+    opacity: 0;
+    transform: translateX(-100px);
+    visibility: hidden;
+}
+
+.hiddenR{
+    opacity: 0;
+    transform: translateX(100px);
+    visibility: hidden;
+}
+
+/*---------------------------------------------------*/
+
+.show-left{
+    animation: slideInLeftPort 0.8s ease-out forwards;
+}
+
+.show-right{
+  animation: slideInRightPort 0.8s ease-out forwards;
+}
+
+@keyframes slideInLeftPort {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRightPort {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+        visibility: visible;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hiddenL,
+.hiddenR {
+    pointer-events: none;
+    position: relative;
+    z-index: -1;
+}
+
