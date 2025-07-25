@@ -19,7 +19,23 @@ footer h2{
 }
 
 .footer-items a{
+    position: relative;
     text-decoration: none;
     color:  white;
     font-size: 22px;
+}
+
+.footer-items a::after{
+    content:  '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-white);
+    transition: width 0.3s ease;
+}
+
+.footer-items a:hover::after{
+    width: 100%;
 }

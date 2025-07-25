@@ -3,7 +3,7 @@ import './style.css'
 const Footer = (() => {
     return(
         <footer>
-            <h2>2022 Company</h2>
+            <h2>2025 Company</h2>
             <nav className="footer-links">
                 <ul className="footer-items">
                     <li><a href="">Privacy Policy</a></li>
