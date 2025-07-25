@@ -25,12 +25,12 @@
 
 .testimonials-text h2{
     font-family: 'Playfair Display';
-    font-size: 81px;
+    font-size: var(--headline2);
     font-weight: 500;
 }
 
 .testimonials-text p{
-    font-size: 15px;
+    font-size: var(--paragraph-tiny);
     text-align: center;
 }
 
@@ -55,12 +55,12 @@
 }
 
 .card-text-H h3{
-    font-size: 44px;
+    font-size: var(--headline3);
     width: 390px;
 }
 
 .card-text-H p{
-    font-size: 15px;
+    font-size: var(--paragraph-tiny);
     width: 290px;
 }
 
@@ -84,12 +84,12 @@
 }
 
 .card-text-V h3{
-    font-size: 38px;
+    font-size: var(--button-text-big);
     width: 250px;
 }
 
 .card-text-V p{
-    font-size: 15px;
+    font-size: var(--paragraph-tiny);
     width: 220px;
 }
 
@@ -128,7 +128,7 @@
     border: 1px solid white;
     background-color: transparent;
     color: white;
-    font-size: 21px;
+    font-size: var(--paragraph-small);
     font-weight: bold;
     transition: 0.3s ease;
 }
