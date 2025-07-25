@@ -8,12 +8,11 @@ const About = () =>{
             entries.forEach(entry => {
                 if(entry.isIntersecting){
                     entry.target.classList.add('about-show')
-                    entry.target.classList.remove('about-hidden')
                 }
             })
         }, {threshold: 0.2})
 
-        const elements = document.querySelectorAll('.about-hidden')
+        const elements = document.querySelectorAll('.about-text, .about-img')
         elements.forEach(el => observer.observe(el))
 
         return () => elements.forEach(el => observer.unobserve(el))

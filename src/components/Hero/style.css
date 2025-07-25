@@ -102,6 +102,7 @@ main button{
     transform: translateY(50px);
     animation: fadeUp 1s ease-out forwards;
     animation-delay: 1s;
+    transition: 0.3s ease;
 }
 
 main button:hover{
