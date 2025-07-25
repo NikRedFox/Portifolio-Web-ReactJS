@@ -17,7 +17,7 @@
 <!-- MODELO DE DESCRIÇÃO -->
 ## 📄 Descrição do entregável
 
-web-portiolio/ <br>
+web-portifolio/ <br>
 ├── public/ <br>
 │   └── index.html <br>
 ├── src/ <br>
