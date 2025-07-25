@@ -7,7 +7,7 @@
 
 .portifolio-container h2{
     font-family: 'Playfair Display';
-    font-size: 81px;
+    font-size: var(--headline2);
     font-weight: 500;
 }
 

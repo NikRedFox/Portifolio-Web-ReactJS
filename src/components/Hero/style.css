@@ -7,7 +7,7 @@ main{
 }
 
 main p{
-    font-size: 24px;
+    font-size: var(--paragraph-medium);
     font-weight: 500;
     width: 658px;    
 }
@@ -19,7 +19,7 @@ main p{
 
 .main-container h1{
     font-family: 'Playfair Display';
-    font-size: 250px;
+    font-size: var(--headline1);
     position: absolute;
     width: 1000px;
     top: 320px;
@@ -44,7 +44,7 @@ main button{
     align-self: center;
     width: 260px;
     height: 72px;
-    font-size: 38px;
+    font-size: var(--button-text-big);
     font-weight: 700;
 }
 
